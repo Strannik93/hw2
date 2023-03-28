@@ -6,9 +6,9 @@ public class IncrSequence {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean check = true;
-        System.out.println("Общее количество чисел: ");
+        System.out.println("Общее количество: ");
         int n = scanner.nextInt();
-        System.out.println("Ввод целых чисел");
+        System.out.println("Ввод целых");
         int num = scanner.nextInt();
         for (int i = 1; i < n; i++) {
             int lastNum = scanner.nextInt();
@@ -21,7 +21,7 @@ public class IncrSequence {
         if (check){
             System.out.println("Последовательность возрастающая");
         } else {
-            System.out.println("Последовательность не возрастающая");
+            System.out.println("Последовательность не");
         }
     }
 }
