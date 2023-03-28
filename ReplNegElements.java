@@ -3,10 +3,6 @@ package hw.seminar2;
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * Дан массив целых чисел. Заменить отрицательные элементы на сумму индексов двузначных элементов массива.
- */
-
 public class ReplNegElements {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

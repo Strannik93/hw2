@@ -2,10 +2,6 @@ package hw.seminar2;
 
 import java.util.Scanner;
 
-/**
- * Дана последовательность N целых чисел. Найти сумму простых чисел.
- */
-
 public class SumPrimeNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

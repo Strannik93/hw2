@@ -2,10 +2,6 @@ package hw.seminar2;
 
 import java.util.Scanner;
 
-/**
- * Дана последовательность из N целых чисел. Верно ли, что последовательность является возрастающей.
- */
-
 public class IncrSequence {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
