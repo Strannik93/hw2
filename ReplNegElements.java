@@ -6,10 +6,8 @@ import java.util.Scanner;
 public class ReplNegElements {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Длина массива: ");
         int n = scanner.nextInt();
         int[] massiv = new int[n];
-        System.out.println("Заполнение массива");
         for (int i = 0; i < n; i++) {
             massiv[i] = scanner.nextInt();
         }
