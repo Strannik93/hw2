@@ -19,10 +19,10 @@ public class SumPrimeNumbers {
         System.out.println("Сумма простых чисел = " + summ);
     }
 
-    public static boolean checkSimplNum(int num) {
-        if (num > 1){
-                for (int i = 2; i < num; i++) {
-                    if (num%i == 0) {
+    public static boolean checkSimplNum(int num2) {
+        if (num2 > 1){
+                for (int i = 2; i < num2; i++) {
+                    if (num2%i == 0) {
                         return false;
                     }
                 }
