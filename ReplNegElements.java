@@ -6,9 +6,11 @@ import java.util.Scanner;
 public class ReplNegElements {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите общее количество цифр: ");
         int n = scanner.nextInt();
         int[] massiv = new int[n];
         for (int i = 0; i < n; i++) {
+            System.out.format("%d число: ", i+1);
             massiv[i] = scanner.nextInt();
         }
         scanner.close();
